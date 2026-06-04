@@ -1,2 +1,0 @@
-ALTER TABLE investments
-DROP CONSTRAINT unique_user_startup;

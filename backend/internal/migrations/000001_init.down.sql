@@ -1,3 +1,0 @@
-DROP TABLE IF EXISTS investments;
-DROP TABLE IF EXISTS startups;
-DROP TABLE IF EXISTS users;
