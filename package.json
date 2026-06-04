@@ -1,0 +1,29 @@
+{
+  "name": "lambda_project",
+  "version": "1.0.0",
+  "description": "project for evaluation for development core member in lambda club",
+  "main": "index.js",
+  "scripts": {
+      "start": "node server/index.js",
+      "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahantgudamsetty/lambda_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahantgudamsetty/lambda_project/issues"
+  },
+  "homepage": "https://github.com/mahantgudamsetty/lambda_project#readme",
+  "dependencies": {
+    "better-sqlite3": "^12.10.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
