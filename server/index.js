@@ -1,5 +1,5 @@
 const express=require("express"); // importing express
-const cors=require("cors"); // importing CORS used for 
+const cors=require("cors"); // importing CORS , It lets it take requests from other origins/local hosts
 const task_routes=require("./routes/tasks"); // imports routes from tasks.js in the "routes" folder
 
 const app=express(); // express application instance created

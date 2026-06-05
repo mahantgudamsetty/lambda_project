@@ -1,6 +1,7 @@
 for self referencial purposes
-express
-exports.<object_name> : makes the object available for other file importing this file
+express pipeline
+
+
 
 http codes (https://www.websitepulse.com/kb/5xx_http_status_codes#)
            (https://www.websitepulse.com/kb/4xx_http_status_codes)
