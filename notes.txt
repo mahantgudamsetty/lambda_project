@@ -1,1 +1,14 @@
 for self referencial purposes
+express
+exports.<object_name> : makes the object available for other file importing this file
+
+http codes (https://www.websitepulse.com/kb/5xx_http_status_codes#)
+           (https://www.websitepulse.com/kb/4xx_http_status_codes)
+sql (case insensitive)
+RETURNING : used to return what ever row has been inserted or modified, it can be used to check if the modification/insertion has occured sucessfully or not
+
+js/sql
+<database_name>.prepare("string") : compiles the string into an sql query
+.run(parameters) : executes the sql statement where the statement modifies the table, no output
+.get(parameters) : executes the sql statement the output is one of the rows of the database
+.all() : executes the sql statement and it gives multiple rows as output
