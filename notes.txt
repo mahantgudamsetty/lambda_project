@@ -13,3 +13,6 @@ js/sql
 .run(parameters) : executes the sql statement where the statement modifies the table, no output
 .get(parameters) : executes the sql statement the output is one of the rows of the database
 .all() : executes the sql statement and it gives multiple rows as output
+
+sqlite uses TEXT instead of VARCHAR, VARCHAR also works but the limit you apply will not be considered ex: in VARCHAR(10) (10) will be ignored
+ 
