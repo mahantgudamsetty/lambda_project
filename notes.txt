@@ -16,3 +16,5 @@ js/sql
 
 sqlite uses TEXT instead of VARCHAR, VARCHAR also works but the limit you apply will not be considered ex: in VARCHAR(10) (10) will be ignored
  
+ const res=await fetch('/api/tasks');
+ here /api/tasks is not a file path. It is a route (endpoint) exposed by your backend server (localhost). server sends back the the data res in json format for the frontend.
