@@ -4,7 +4,7 @@ const task_func={
     get_all:()=>{
         return db.prepare("SELECT * FROM tasks ORDER BY time DESC").all(); // this runs the sql statement and show all tasks from lastest to oldest time of creation
     },
-    delete:()=>{
+    delete:(id)=>{
         return db.prepare("DELETE FROM tasks WHERE id=?").run(id);
     },
     update:(id,{name,data,status})=>{
@@ -17,4 +17,4 @@ const task_func={
         return db.prepare("SELECT * FROM tasks WHERE id=?").get(id);
     }
 }
-router.post("/",ctrl.delete_all_tasks);
+module.exports = task_func;
