@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react";
 import { Plus, Trash2, Check, Loader2, Inbox } from "lucide-react";
 
-// Vite proxy forwards /api/* to http://localhost:3000
-const API = "/api/tasks";
+const API = "/api/tasks"; // Vite proxy forwards /api/* to http://localhost:3000
 
 export default function App() {
   // ─── STATE ───────────────────────────────────────────────────────────
